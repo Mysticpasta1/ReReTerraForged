@@ -1,28 +1,28 @@
 {
-  
   "required": true,
   "plugin": "raccoonman.reterraforged.mixin.plugin.MixinPlugin",
   "package": "raccoonman.reterraforged.mixin",
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_17",
+  "refmap": "reterraforged-common-refmap.json",
   "mixins": [
-  	"MixinNoiseChunk",
-  	"MixinRandomState",
-  	"MixinChunkMap",
-  	"MixinUtil",
-  	"MixinBiomeGenerationSettings",
-  	"MixinSurfaceSystem",
-  	"MixinStructure",
-  	"MixinMinecraftServer",
-  	"MixinSpawnFinder",
-  	"MixinClimateSampler",
-  	"terrablender.MixinParameterList",
-  	"terrablender.MixinClimateSampler",
-  	"terrablender.MixinTargetPoint",
-  	"terrablender.MixinNoiseChunk"
+    "MixinNoiseChunk",
+    "MixinRandomState",
+    "MixinChunkMap",
+    "MixinUtil",
+    "MixinBiomeGenerationSettings",
+    "MixinSurfaceSystem",
+    "MixinStructure",
+    "MixinMinecraftServer",
+    "MixinSpawnFinder",
+    "MixinClimateSampler",
+    "terrablender.MixinParameterList",
+    "terrablender.MixinClimateSampler",
+    "terrablender.MixinTargetPoint",
+    "terrablender.MixinNoiseChunk"
   ],
   "client": [
-  	"ScreenInvoker"
+    "ScreenInvoker"
   ],
   "injectors": {
     "defaultRequire": 1
